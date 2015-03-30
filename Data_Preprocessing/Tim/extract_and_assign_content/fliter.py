@@ -94,7 +94,7 @@ reply_id_list = []
 Usubject_list = []
 Umessage_id_list = []
 Ucontent_id_list = []
-filename = "2012-December.txt"
+filename = "2014-September.txt"
 with open("../proccessed/fixed/"+filename, "rw+") as f:
 		lines = f.readlines()
 #---------------- Subject Processing ----------------
@@ -177,10 +177,11 @@ print len(subject_list)
 print len(message_id_list)
 print len(reply_id_list)
 print len(reference_id_list)
-'''
+
 for x in reference_id_list:
 	print x
-'''
+
+
 #--------------- Content Processing -----------------
 #set the same number of space as number of subject for the content list
 content = []
