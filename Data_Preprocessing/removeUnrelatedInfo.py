@@ -4,11 +4,6 @@ import string
 import re
 import os.path
 
-rootdir = './Semifinished/'
-out_rootdir = './Data_Source/'
-
-with open("stop_words_en.txt", "r") as f:
-    stop_words = f.read().splitlines()
 
 
 def remove_words(parent,filename):
@@ -83,6 +78,15 @@ def remove_words(parent,filename):
     output.close()
     print "End"
 
+rootdir = './Semifinished/'
+out_rootdir = './Data_Source/'
+
+with open("stop_words_en.txt", "r") as f:
+    stop_words = f.read().splitlines()
+
+
+for j in range(len(stop_words)):
+    stop_words[j] = stop_words[j].lower()
 
 for parent,dirnames,filenames in os.walk(rootdir):
     for filename in filenames:
