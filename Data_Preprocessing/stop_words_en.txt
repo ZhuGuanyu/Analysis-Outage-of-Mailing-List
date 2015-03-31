@@ -591,3 +591,9 @@ sep
 oct
 nov
 dec
+gmt
+am
+sprint
+att
+tmobile
+chicago

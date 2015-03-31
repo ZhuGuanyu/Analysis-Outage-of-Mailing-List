@@ -31,14 +31,10 @@ def remove_words(parent,filename):
             subject_word = re.findall(r"[\w']+|[.,!?;_]",data[i+1])
             for j in range(len(subject_word)):
                 if (subject_word[j].lower() not in stop_words) and (subject_word[j] not in string.punctuation) and subject_word[j].isdigit()==False:
-                    subject += subject_word[j]+" "
+                    subject += subject_word[j].lower()+" "
             dic.append(subject)
             #print "SB "+subject+" "+str(i)
             i=i+3
-        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i]):
-    		i += 1
-        elif ("Subject:" in data[i] or "Date:" in data[i] or "From:" in data[i] or "http:" in data[i] or " Reply-To:" in data[i] or "URL:" in data[i] or "Sent:" in data[i] or "Cc:" in data[i]):
-            i += 1
         elif re.search("<http:", row):
             #print "I here"+str(i)
             while (">" not in data[i]):
@@ -52,6 +48,10 @@ def remove_words(parent,filename):
         elif re.search("\[mailto:", row):
             while ("]" not in data[i]):
                 i += 1
+            i += 1
+        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i]):
+            i += 1
+        elif ("Subject:" in data[i] or "Date:" in data[i] or "From:" in data[i] or "http:" in data[i] or " Reply-To:" in data[i] or "URL:" in data[i] or "Sent:" in data[i] or "Cc:" in data[i]):
             i += 1
         elif ("###########################################" in data[i] and "END" == data[i+1] and "######################################################" in data[i+2]):
             dic[cnt] += contain
@@ -72,10 +72,10 @@ def remove_words(parent,filename):
             word = re.findall(r"[\w']+|[.,!?;]",row)
             #word = row.split()  # as default using the ' ' to split item
             for j in range(len(word)):
-                if (word[j].lower() not in stop_words) and (word[j] not in string.punctuation) and word[j].isdigit()==False:
+                if (word[j].lower() not in stop_words) and (word[j] not in string.punctuation) and word[j].isdigit()==False and re.search(r'[0-9]',word[j])==None :
                 	#if word[j]== "\n":
                 	#	continue
-                    contain += word[j]+" "
+                    contain += word[j].lower()+" "
             i += 1
                     
     for i in range(len(dic)):
@@ -90,6 +90,7 @@ for parent,dirnames,filenames in os.walk(rootdir):
             continue
         print "Dealing with:" +os.path.join(parent,filename)
         remove_words(parent,filename)
+        #break
 
 
 
