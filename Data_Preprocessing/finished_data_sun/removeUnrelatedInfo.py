@@ -4,7 +4,10 @@ import string
 import re
 import os.path
 
-phrase = ["in order to"]
+phrase = ["in order to", "data centers", "customer service router", "federal reserve", "hosting router", "email address", "call center", "opticalflare observed in h-alpha", "out of the ordinary", "an embedded and charset-unspecified text was scrubbed", 
+"this message has been scanned for viruses and dangerous content by mailscanner, and is believed to be clean", "proton flux graph", "in addition to", "in progress", "opposite side", "due to", "pure sinusoid", "In fact", "this message is not an official statement of osis center policies", "bit off-topic",
+"black out", "wrong mailing list", "deep impact", "outages mailing list", "outages at isotf.org", "paging companies", "ellular operators", "telephone snswering service", "emergency dispatch", "public safety", "optic fusion", "cell towers", "snstitute of earth's magnetism", 
+"took place", "take place",]
 
 def removePhrase(row):
     for string in phrase:
@@ -28,7 +31,7 @@ def remove_words(parent,filename):
     	#print "&&&&&&& "+ str(i)
         row = data[i]
         if ("##############################################" in data[i] and ("END" != data[i+1]) and (data[i+1]!="") and "####################################################" in data[i+2]):
-            subject_word = re.findall(r"[\w']+|[.,!?;_]",data[i+1])
+            subject_word = re.findall(r"[\w']+|[.,!?;_']",data[i+1])
             for j in range(len(subject_word)):
                 if (subject_word[j].lower() not in stop_words) and (subject_word[j] not in string.punctuation) and subject_word[j].isdigit()==False:
                     subject += subject_word[j].lower()+" "
@@ -49,7 +52,7 @@ def remove_words(parent,filename):
             while ("]" not in data[i]):
                 i += 1
             i += 1
-        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i] or "=" in data[i] or ":" in data[i]):
+        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i] or "=" in data[i] or ":" in data[i] or "wrote:" in data[i] or "..." in data[i]):
             i += 1
         elif ("Subject:" in data[i] or "Date:" in data[i] or "From:" in data[i] or "http:" in data[i] or " Reply-To:" in data[i] or "URL:" in data[i] or "Sent:" in data[i] or "Cc:" in data[i]):
             i += 1
@@ -84,8 +87,8 @@ def remove_words(parent,filename):
     output.close()
     print "End"
 
-rootdir = './Semifinished/'
-out_rootdir = './Data_Source/'
+rootdir = './Test_Semifinished/'
+out_rootdir = './Test_Data_Source/'
 
 with open("stop_words_en.txt", "r") as f:
     stop_words = f.read().splitlines()

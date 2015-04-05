@@ -4,12 +4,7 @@ import string
 import re
 import os.path
 
-phrase = ["in order to"]
 
-def removePhrase(row):
-    for string in phrase:
-        row = row.replace(string,'')
-    return row
 
 def remove_words(parent,filename):
     with open(os.path.join(parent,filename), "r") as f:
@@ -49,7 +44,7 @@ def remove_words(parent,filename):
             while ("]" not in data[i]):
                 i += 1
             i += 1
-        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i] or "=" in data[i] or ":" in data[i]):
+        elif ("BEGIN PGP SIGNED MESSAGE" in data[i] or "Hash: SHA1" in data[i] or "Original Message" in data[i] or "---" in data[i] or "__" in data[i] or " Name:" in data[i]):
             i += 1
         elif ("Subject:" in data[i] or "Date:" in data[i] or "From:" in data[i] or "http:" in data[i] or " Reply-To:" in data[i] or "URL:" in data[i] or "Sent:" in data[i] or "Cc:" in data[i]):
             i += 1
@@ -60,8 +55,7 @@ def remove_words(parent,filename):
             cnt += 1
             i=i+3
         else:
-            row = data[i].lower()
-            row = removePhrase(row)
+            row = data[i]
             if ( data[i].find('<') >=0 and data[i].find('>')>=0 ):
     			row = data[i][:data[i].find('<') ]
     			row += data[i][data[i].find('>')+1:]
