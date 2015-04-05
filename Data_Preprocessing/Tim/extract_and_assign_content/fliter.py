@@ -83,7 +83,7 @@ Initial Setting:
 '''
 
 #---------------- Open and Read File ----------------
-path = "../proccessed/fixed/"
+path = "proccessed/fixed/"
 dirs = os.listdir( path )
 
 #for filename in dirs:
@@ -95,7 +95,7 @@ Usubject_list = []
 Umessage_id_list = []
 Ucontent_id_list = []
 filename = "2014-September.txt"
-with open("../proccessed/fixed/"+filename, "rw+") as f:
+with open("proccessed/fixed/"+filename, "rw+") as f:
 		lines = f.readlines()
 #---------------- Subject Processing ----------------
 pre_word=[]
@@ -166,7 +166,6 @@ for index in range(len(lines)):
 				reference_id_list.append(nlword[1])
 			elif word[0] == "Subject:" and word[1] =="[outages]" and nlword[0]=="References:":
 				reference_id_list.append(nlword[1])
-
 			elif word[0] == "Subject:" and word[1] =="[Outages]" and nlword[0]!="In-Reply-To:" and nlword[0]!="Date:" and nlword[0]!="Sent:":
 				reference_id_list.append("0")
 			elif word[0] == "Subject:" and word[1] =="[outages]" and nlword[0]!="In-Reply-To:" and nlword[0]!="Date:" and nlword[0]!="Sent:":
@@ -272,7 +271,7 @@ for index in range(len(Usubject_list)):
 	else:
 		Fcontent[location] = Fcontent[location] + Ucontent[index]
 
-f = open("../proccessed/New-"+filename,'w')
+f = open("New2-"+filename,'w')
 
 for index in range(len(Fcontent)):
 	f.write("###############################################################\n")

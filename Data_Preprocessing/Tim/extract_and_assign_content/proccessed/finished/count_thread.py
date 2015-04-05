@@ -6,18 +6,17 @@ NNline=""
 count = 0
 pre_line =""
 next_line=""
+total_thread = 0
 for filename in dirs:
+	count = 0
 	with open(filename, "r") as f:
 		lines = f.readlines()
-		for index in range(len(lines)):
-			if index > 0:
-				pre_line = lines[index-1]
-			if index < len(lines)-1:
-				next_line = lines[index+1]
-			if pre_line and next_line:
-				if pre_line =="###############################################################\n"\
-					and next_line=="###############################################################\n"\
-					and lines[index] != "END\n":
-					count+=1
-print count
+		for line in lines:
+			word = line.split()
+			if word and word[0]=="END":
+				count+=1
+				total_thread+=1
+	print filename +" has "+ str(count) + " threads."
+print "Total_thread = "+str(total_thread)
+
 
