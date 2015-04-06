@@ -1256,7 +1256,7 @@ Ocala
 Oceanside
 Odessa
 Ogden
-Oklahoma City
+Oklahoma
 Olathe
 Olympia
 Omaha
@@ -1264,7 +1264,8 @@ Ontario
 Orange
 Orem
 Orlando
-Overland Park
+Overland
+Park
 Oxnard
 Palm Bay
 Palm Springs
@@ -1272,7 +1273,8 @@ Palmdale
 Panama City
 Pasadena
 Paterson
-Pembroke Pines
+Pembroke
+Pines
 Pensacola
 Peoria
 Philadelphia
@@ -1280,27 +1282,37 @@ Phoenix
 Pittsburgh
 Plano
 Pomona
-Pompano Beach
-Port Arthur
-Port Orange
-Port Saint Lucie
-Port St. Lucie
+Pompano
+Beach
+Port
+Arthur
+Port
+Orange
+Port
+Saint
+Lucie
+Port
+St
+Lucie
 Portland
 Portsmouth
 Poughkeepsie
 Providence
 Provo
 Pueblo
-Punta Gorda
+Punta
+Gorda
 Racine
 Raleigh
-Rancho Cucamonga
+Rancho
+Cucamonga
 Reading
 Redding
 Reno
 Richland
 Richmond
-Richmond County
+Richmond
+County
 Riverside
 Roanoke
 Rochester
@@ -1309,9 +1321,12 @@ Roseville
 Round Lake Beach
 Sacramento
 Saginaw
-Saint Louis
-Saint Paul
-Saint Petersburg
+Saint
+Louis
+Saint
+Paul
+Saint
+Petersburg
 Salem
 Salinas
 Salt Lake City
@@ -1392,3 +1407,108 @@ Yakima
 Yonkers
 York
 Youngstown
+folks
+folk
+taiwan
+singtel
+primarily
+primary
+explains
+dan
+appears
+fully
+week
+month
+weekend
+functional
+asia
+min
+max
+asian
+city
+country
+verizon
+Street
+funny
+private
+hold
+st
+jayson
+navitsky
+anxiously
+anxious
+awaiting
+Spags
+estimated
+estimate
+cross
+Cause
+yup
+ongoing
+haha
+nepal
+attractive
+rose
+bipin
+making
+hand
+aggravates
+quest
+impacted
+someday
+wishful
+ISPs
+proactive
+planned
+unplanned
+RNAL
+Hong
+Kong
+Busan
+Toucheng
+TongFuk
+isolated
+HKG
+Tong
+Fuk
+Lodbrog
+ship
+arrived
+complete
+smooth
+APCN
+Branch
+completed
+evening
+korea
+japan
+Singapore
+mobilized
+made
+node
+Fangshan
+appeared
+whilst
+Shantou
+Philippine
+Tanshui
+ChongMing
+reported
+caused
+malaysia
+fine
+china
+okinawa
+slo
+spur
+developed
+kol
+chus
+Shanghai
+FLAG
+FEA
+suffered
+Repeater
+hope
+helps
+Rahul

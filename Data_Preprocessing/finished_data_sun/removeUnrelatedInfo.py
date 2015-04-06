@@ -7,7 +7,7 @@ import os.path
 phrase = ["in order to", "data centers", "customer service router", "federal reserve", "hosting router", "email address", "call center", "opticalflare observed in h-alpha", "out of the ordinary", "an embedded and charset-unspecified text was scrubbed", 
 "this message has been scanned for viruses and dangerous content by mailscanner, and is believed to be clean", "proton flux graph", "in addition to", "in progress", "opposite side", "due to", "pure sinusoid", "In fact", "this message is not an official statement of osis center policies", "bit off-topic",
 "black out", "wrong mailing list", "deep impact", "outages mailing list", "outages at isotf.org", "paging companies", "ellular operators", "telephone snswering service", "emergency dispatch", "public safety", "optic fusion", "cell towers", "snstitute of earth's magnetism", 
-"took place", "take place",]
+"took place", "take place", "asean restorer", "flag fea sub system", "cs kdd ocean link"]
 
 def removePhrase(row):
     for string in phrase:
@@ -73,7 +73,7 @@ def remove_words(parent,filename):
                 row += row[row.find('|')+1:]
 
             #print "**********" + row 
-            word = re.findall(r"[\w']+|[.,!?;]",row)
+            word = re.findall(r"[\w']+|[.,!?;_']",row)
             #word = row.split()  # as default using the ' ' to split item
             for j in range(len(word)):
                 if (word[j].lower() not in stop_words) and (word[j] not in string.punctuation) and word[j].isdigit()==False and re.search(r'[0-9]',word[j])==None :

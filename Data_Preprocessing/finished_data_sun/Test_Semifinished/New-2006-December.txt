@@ -833,7 +833,7 @@ Abovenet fibre cut; Washington D.C.
 ###############################################################
  At around 09:57 PST, we saw heavy amounts of packet loss via our
  Abovenet connection via the Fort Worth/Dallas area.
- Abovenet's IP group has stated that there's a fibre cut in the
+ Abovenet IP group has stated that there's a fibre cut in the
  Washington D.C. area which is affecting their "southern route",
  and peering between Chicago<->DC, FTW/Dallas<->DC, and northern
  Virginia<->DC was affected.
@@ -897,17 +897,6 @@ Are there multiple  outages in APAC ?
  I think the earthquake resulted in a few cable cuts. 
  Any updates folks? 
  Regards,
- -----------------------------------------
- Disclaimer:
- This e-mail communication and any attachments may contain
- confidential and privileged information and is for use by the
- designated addressee(s) named above only.  If you are not the
- intended addressee, you are hereby notified that you have received
- this communication in error and that any use or reproduction of
- this email or its contents is strictly prohibited and may be
- unlawful.  If you have received this communication in error, please
- notify us immediately by replying to this message and deleting it
- from your computer. Thank you.
  -------------- next part --------------
  An HTML attachment was scrubbed...
  URL: http://isotf.org/pipermail/outages/attachments/20061226/6f9d032b/attachment.htm 
@@ -970,7 +959,7 @@ CO Outage - New York City
  information other than "it's a major problem and we're working on it."
  -Jayson
  	<d1be2cee0612281510r18ebf824h8608534dde3de8e2@mail.gmail.com>
- I called Verizon, as we are anxiously awaiting our customers' networks
+ I called Verizon, as we are anxiously awaiting our customers networks
  to come back on-line. They are still working a cross connect issue,
  but no estimated time of repair.
   - Spags -
@@ -1018,21 +1007,6 @@ Quake affected cable repair
  *****
  Update from Equinix on the status of some of the undersea cables:
  Cable Repair Status:
- Summary:
- 1) Hong Kong <-> Busan & Hong Kong <-> Toucheng
- - expected to be fixed in 5 days
- 2) APCN System 1 Segment B17
- - ship mobilized; no ETA
- 3) APCN System 2 Segment B5
- - will fix after #2
- 4) SMW3 S1.8 (Fangshan - BU4) and S1.7 (BU3 - BU4)
- - ship mobilized; no ETA
- 5) Tanshui <-> Shantou & Hong Kong <-> ChongMing
- - no plans to repair yet
- 6) APCN2 S3 & S7
- - plans to mobilize ship
- 7) Hong Kong <-> Shanghai <-> Korea
- - no plans at this time
  Details:
  RNAL Segment (Hong Kong - Busan) & Segment (Hong Kong - Toucheng) :
  - The RNAL cable path between Busan and TongFuk was down at 1243utc
@@ -1084,7 +1058,7 @@ Quake affected cable repair
  that made the Shantou node being isolated from China-US cable system.
  The fault point is about 452km from Shantou cable station. 
  CS KDD Ocean Link (KOL) will be mobilized for the repair of CHUS. 
- FLAG FEA Sub-System 8 (Hong Kong - Shanghai - Korea) :
+ FLAG FEA Sub System 8 (Hong Kong - Shanghai - Korea) :
  - FLAG FEA reported that the Sub-system 8 had suffered cable fault at
  2056UTC. The fault point is between Repeater 9 and Repeater 10 near Hong
  Kong. 
