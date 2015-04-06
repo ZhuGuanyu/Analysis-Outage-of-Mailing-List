@@ -237,18 +237,64 @@ Because the outage type is discrete, so we can use classification method to solv
 \end{enumerate}
 Besides, we will also evaluate the goodness of the learning step using a standard 10-fold cross-validation into the SVM algorithm. In 10-fold cross-validation, the original sample is randomly partitioned into 10 equal size subsamples. Of the 10 subsamples, a single subsample is retained as the validation data for testing the model, and the remaining 9 subsamples are used as training data. The cross-validation process is then repeated 10 times, with each of the 10 subsamples used exactly once as the validation data. The 10 results from the folds can then be averaged (or otherwise combined) to produce a single estimation. The advantage of this method over repeated random sub-sampling is that all observations are used for both training and validation, and each observation is used for validation exactly once.
 
+\section{Implementation and Preliminary Result}
+For the implementation, we decide to user a linear-kernel SVM for classification using the LibSVM toolkit which performed well in terms of both accuracy and speed. LibSVM toolkit is an integrated software for support vector classification, regression and distribution estimation. It also supports multi-class classification. 
+\par From now we use the toolkit into our first 30 data-preprocessed try data, we use the first 15 threads to train the classifier and use the next 15 threads to test the classifier’s performance that we trained. The table 2 shows the accuracy of the 14 outage types prediction and the average of our trained classifier is 92.857\%. From the table, we can see that the accuracy of the outage types prediction is extremely well(most of them are 100\%). We think there are some reasons for getting this extremely well result:
+\par The number of training data is not enough. We know that if we do the classification, we must have a large number of training data to train the classifier. But our first try-data is not enough, it will result in the classifier is not general to all the possible situations.
+\par The number of predicted data is not enough. The predicted data may be just match this trained classifier well, it not represent the general situations.
+\par In the data-preprocess step, we remove many unrelated content of the text, so the noise of the data is very small. It may result in a better result for classification.
+In the future, we will improve the first two factors.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{ | l || c | }
+  \hline
+  Outage types & classification accuracy \\
+  \hline
+  Routing & 93.3333\% \\
+  \hline
+  Power outage & 100\%  \\
+  \hline
+  Packet loss & 100\%  \\
+  \hline
+  Natural disaster & 66.6667\%  \\
+  \hline
+  Mobile data network & 100\%  \\
+  \hline
+  Fiber cut & 80\%  \\
+  \hline
+  DNS resolution & 100\%  \\
+  \hline
+  Device failure & 60\%  \\
+  \hline
+  Congestion & 100\%  \\
+  \hline
+  Censorship & 100\%   \\
+  \hline
+  Attack & 100\%   \\
+  \hline
+  Application server & 100\%   \\
+  \hline
+  Application configuration & 100\%   \\
+  \hline
+  Maintenance & 100\%   \\
+  \hline
+  Average accuracy & 92.85714286\%   \\
+  \hline
+\end{tabular}
+\caption{Classification result}\label{table:classification}
+\end{table}
+
 \section{Future Plans}
 \paragraph{Beside the tasks that we implemented so far, there are more things that we can do in order to improve the accuracy and efficiency of this project, such as use linear-kernel SVM, enlarge the size of test data and test our classifier with new data}
 
-\subsection{Classification Implementation}
-For the next work, we decide to user a linear-kernel SVM for classification using the LibSVM toolkit which performed well in terms of both accuracy and speed. LibSVM toolkit is an integrated software for support vector classification, regression and distribution estimation. It also supports multi-class classification.
 \subsection{Data Enlarge}
 Because we just use small samples to try our method for the runtime consideration, we will enlarge our data using in the method.
 \subsection{Get a reasonable result for the outage type classification prediction}
 Get a reasonable classifier that predict a new thread which belongs to what outage type. The result can basically match the thread’s actual  outage type.
-\newline
+
 \section{What we have done}
-In this paper, we have integrated the posts with the same subject to the same thread in the mailing list. Furthermore, we have extracted and omitted the unessential data information and maintain the important data information for our classifier by using a stop words list that was obtained from the SMART information retrieval system[5]. We manually increased the amount of words in the stop words list from 571 to 1514, labeled thirty threads as our training data and used python Natural Language Toolkit(NLTK) to lemmatiz the data and improve the classification. Then, we tried out TF-IDF and found out that a word with high td-idf value within a thread doesn't mean the word is useful for the classification; as the result, we imported name-word library and city-word library of python Natural Language Toolkit(NLTK) to avoid this situation. After this, we generated two-dimensional matrix and obtained the useful data for our classification. Currently, we are implementing SVM with our final data.
+In this paper, we have integrated the posts with the same subject to the same thread in the mailing list. Furthermore, we have extracted and omitted the unessential data information and maintain the important data information for our classifier by using a stop words list that was obtained from the SMART information retrieval system[5]. We manually increased the amount of words in the stop words list from 571 to 1514, labeled thirty threads as our training data and used python Natural Language Toolkit(NLTK) to lemmatiz the data and improve the classification. Then, we tried out TF-IDF and found out that a word with high td-idf value within a thread doesn't mean the word is useful for the classification; as the result, we imported name-word library and city-word library of python Natural Language Toolkit(NLTK) to avoid this situation. After this, we generated two-dimensional matrix and obtained the useful data for our classification and got the classification result.
 
 \begin{thebibliography}{7}
 \bibitem{Kristen}
