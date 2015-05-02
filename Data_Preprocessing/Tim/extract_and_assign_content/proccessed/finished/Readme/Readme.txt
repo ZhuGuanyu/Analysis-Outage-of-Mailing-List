@@ -12,5 +12,5 @@
 	1. fliter.py: extract information and assign them to proper thread
 	2. subject_fix.py: fix subjects
 	3. count_thread.py: count total amount of threads in all files in finished directory
-	
+	4. intergrate.py: integrate all threads to a single txt file
 
