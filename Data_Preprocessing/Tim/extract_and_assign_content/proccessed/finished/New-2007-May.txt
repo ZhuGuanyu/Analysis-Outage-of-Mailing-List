@@ -24,110 +24,6 @@ END
 ###############################################################
 
 ###############################################################
-Homeless man disrupts Internet2 service
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- http://www.networkworld.com/news/2007/050207-internet2-fire.html
- http://techdirt.com/articles/20070502/171657.shtml
- regards,
- /virendra
-###############################################################
-END
-###############################################################
-
-###############################################################
-Change Submitted: New[ID - 46033] [Type: Paging Terminals] [Location: Definace, OH]
-###############################################################
- Aaron D. Osgood
- Streamline Solutions L.L.C
- P.O. Box 6115
- Falmouth, ME 04105
- TEL: 207-781-5561
- FAX: 207-781-8067
- MOBILE: 207-831-5829
- PAGE: 2078315829 at vtext.com
- AOLIM: OzCom1
- ICQ: 206889374
- AOsgood at Streamline-Solutions.net
-  <http://www.streamline-solutions.net> http://www.streamline-solutions.net
- Introducing Efficiency to Business since 1986.
-   _____  
- From: CERT at usamobility.com [mailto:CERT at usamobility.com] 
- Sent: Thursday, May 03, 2007 14:17
- Subject: Change Submitted: New[ID - 46033] [Type: Paging Terminals]
- [Location: Definace, OH]
- Change Request Entry 
- Project ID#:   N/A 
- Request id#:   46033 
- Status:   Existing 
- Change Requested By   
- Name:
- JohnPaul Castillo 
- E-Mail Address: 
- CERT at usamobility.com 
- Approval   
- Mark Burns 
- Mike Curd 
- CMS Details   
- Change Type(s):
- Paging Terminals 
- Areas Affected:
- Eastern U.S. 
- Potential Impact:
- Major
- Emergency Request:
- Yes 
- System Unavailable:
- 0 Hrs 30 mins 
- Coverage Impact:
- Total Outage
- Paging Delays > 5 minutes?:  No
- Location Information   
-    Definace, OH 
- Items Affected   
-    Wireless Network 
- System Barcode:     1234 
- Remedy Ticket(s):      416918 
- Paging Terminals Affected: 
-    DFN Defiance Arch GL 
- 1-way Frequencies Affected:   
-    929.5625, 929.5875, 929.6125, 929.6375, 929.7375, 931.8875 
- Other 1-way Frequencies Affected:   
- 2-way Zones Affected:   
-    Cincinnati 
- States Affected:   
-    OH 
- Description of Change: 
-     On 5/4/07 at 10:00 PM Eastern Time we will be upgrading the Defiance
- paging terminal to a new version 8.0 machine. This is required to resolve a
- chronic reset problem. Voice mail greetings will need to be recorded after
- 10:30 PM Eastern time, all voice mail messages need to be retireved prior to
- 10:00 PM Eastern. Voice mail passwords will remain the same. 
- Reason for Change: 
-     This is required to resolve a chronic reset problem. 
- Additional Comments: 
- Date Planned   
- Start:   Fri 05/04/2007
- End:     Fri 05/04/2007 
- Time Planned   
- Start:   10:00 PM CT
- End:     10:30 PM CT 
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20070503/9be47f26/attachment-0001.htm 
- -------------- next part --------------
- A non-text attachment was scrubbed...
- Name: ONS.VCS
- Type: text/x-vcalendar
- Size: 1424 bytes
- Desc: not available
- Url : http://isotf.org/pipermail/outages/attachments/20070503/9be47f26/attachment-0001.vcs 
-###############################################################
-END
-###############################################################
-
-###############################################################
 possible sunrocket outage - can't receive calls, caller gets dead air.
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -550,20 +446,6 @@ END
 ###############################################################
 
 ###############################################################
-NTT broadband outage
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- Are there any asiapac operators who can provide any further insight.
- http://www.networkworld.com/news/2007/051507-millions-disconnected-by-ntt-broadband.html
- http://www.networkworld.com/news/2007/051607-cisco-routers-major-outage-japan.html?netht=051707dailynews1&
- regards,
- /virendra
-###############################################################
-END
-###############################################################
-
-###############################################################
 verizon <-> atlanta?
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -618,27 +500,6 @@ END
  Any further insight will be appreciated.
  regards,
  /virendra
-###############################################################
-END
-###############################################################
-
-###############################################################
-quest?
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- is something going w/ quest in tampa, florida?
- please advice.
- regards,
- /virendra
- On Mon, May 21, 2007 at 02:12:22PM -0700, virendra rode // wrote:
- Some discussion about this on NANOG as of late (today)...
- http://www.merit.edu/mail.archives/nanog/msg00355.html
- -- 
- | Jeremy Chadwick                                    jdc at parodius.com |
- | Parodius Networking                           http://www.parodius.com/ |
- | UNIX Systems Administrator                      Mountain View, CA, USA |
- | Making life hard for others since 1977.                  PGP: 4BD6C0CB |
 ###############################################################
 END
 ###############################################################

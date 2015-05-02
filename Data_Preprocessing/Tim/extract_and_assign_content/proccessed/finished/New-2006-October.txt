@@ -251,33 +251,6 @@ END
 ###############################################################
 
 ###############################################################
-SunGard Austin Morning Outage
-###############################################################
- FYI...
- ----- Forwarded message from James Baldwin <jbaldwin at antinode.net> -----
- ----- End forwarded message -----
- -- 
- | Jeremy Chadwick                                 jdc at parodius.com |
- | Parodius Networking                        http://www.parodius.com/ |
- | UNIX Systems Administrator                   Mountain View, CA, USA |
- | Making life hard for others since 1977.               PGP: 4BD6C0CB |
- An embedded and charset-unspecified text was scrubbed...
- Name: not available
- Url: http://isotf.org/pipermail/outages/attachments/20061019/171ada0c/attachment.diff 
-###############################################################
-END
-###############################################################
-
-###############################################################
-AT&T in NY?
-###############################################################
- Anyone else seeing issues with AT&T in New York City?
- -Jay
-###############################################################
-END
-###############################################################
-
-###############################################################
 SunGard Austin Morning Outage]
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -380,13 +353,6 @@ END
 ###############################################################
 
 ###############################################################
-[Full-disclosure] trouble in milwaukee?
-###############################################################
-None###############################################################
-END
-###############################################################
-
-###############################################################
 CO fire St. Johns Newfoundland]
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -418,39 +384,6 @@ DNS Problem at register.com?
  wrote:
  on 10/25/2006 09:05 AM dubrowin.38020444 at bloglines.com said the following:
  from
-###############################################################
-END
-###############################################################
-
-###############################################################
-register.com down sev0?
-###############################################################
- ----- Forwarded message from alex at pilosoft.com -----
- ----- End forwarded message -----
- -- 
- | Jeremy Chadwick                                 jdc at parodius.com |
- | Parodius Networking                        http://www.parodius.com/ |
- | UNIX Systems Administrator                   Mountain View, CA, USA |
- | Making life hard for others since 1977.               PGP: 4BD6C0CB |
-###############################################################
-END
-###############################################################
-
-###############################################################
-Light Reading: Comcast Suffers Rash of VoIP, Broadband Outages
-###############################################################
- An embedded and charset-unspecified text was scrubbed...
- Name: not available
- Url: http://isotf.org/pipermail/outages/attachments/20061026/cbd2a472/attachment.diff 
-###############################################################
-END
-###############################################################
-
-###############################################################
-Regiser.com under ddos?
-###############################################################
- Anyone else heard of this other than on the nanog mailing list?  Any
- outside sources reporting?
 ###############################################################
 END
 ###############################################################
@@ -542,30 +475,6 @@ Extreme Slowness]
  For FYI :) I realize that ICMP is not the best way to test and it is
  not a true indication of slowness or the presence of a problem.
  On Oct 26, 2006, at 5:14 PM, Elijah Savage wrote:
-###############################################################
-END
-###############################################################
-
-###############################################################
-ELI Issues in Seattle (Tukwila)?]
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- - -------- Original Message --------
- Subject: ELI Issues in Seattle (Tukwila)?
- Date: Mon, 30 Oct 2006 15:57:48 -0800
- From: Bill Sehmel <bsehmel at hopone.net>
- Anyone else noticing ELI latency issues around the Seattle (Tukwila) area?
- Thanks
- Bill Sehmel
- - --
-  Bill Sehmel - bsehmel at HopOne.net -- 1-206-242-2743
-  Systems Administrator, HopOne Internet Corp. SEA2 NOC
-  Bandwidth & full range of carrier/web host colo + networking
-  services: http://www.hopone.net#
- I'm a current customer of ELI at 2 locations.  I haven't had any issues
- today but if I do I'll open a ticket and see if I can find out whats
- going on.  
 ###############################################################
 END
 ###############################################################

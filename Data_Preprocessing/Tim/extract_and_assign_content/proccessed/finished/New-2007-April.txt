@@ -1089,77 +1089,6 @@ END
 ###############################################################
 
 ###############################################################
-New Zealand: Internet Outage Hits Tens of Thousands
-###############################################################
- An embedded and charset-unspecified text was scrubbed...
- Name: not available
- Url: http://isotf.org/pipermail/outages/attachments/20070418/8b189aa6/attachment.diff 
-###############################################################
-END
-###############################################################
-
-###############################################################
-Massive System Failure Affects BlackBerry Users
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
- regards,
- /virendra
- 	<51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- Jonathan M. Slivko wrote:
- - ---------------------------
- http://www.nytimes.com/2007/04/20/technology/20blackberry.html?_r=2&oref=slogin&oref=slogin
- regards,
- /virendra
- _______________________________________________
- Outages mailing list
- Outages at isotf.org
- http://isotf.org/mailman/listinfo/outages
- Hmmm.... has anyone actually gotten any [detailed] info as to what
- happened at RIM the other day?
- -----Original Message-----
- From: virendra rode // [mailto:virendra.rode at gmail.com] 
- Sent: Wednesday, April 18, 2007 10:03 AM
- Subject: [Outages] Massive System Failure Affects BlackBerry Users
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- http://www.wnbc.com/news/12339359/detail.html?dl=mainclick
- regards,
- /virendra
- _______________________________________________
- Outages mailing list
- Outages at isotf.org
- http://isotf.org/mailman/listinfo/outages
- 	<51988BAE8E8F38428E1F2C66EBAC01B13BB6@exchg.corporate.hspheredns.com>
- 	<462AFAAC.60002@gmail.com>
- Lovely....
- -----Original Message-----
- From: virendra rode // [mailto:virendra.rode at gmail.com]
- Sent: Sun 4/22/2007 2:03 AM
- Cc: outages at isotf.org
- Subject: Re: [Outages] Massive System Failure Affects BlackBerry Users
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- Jonathan M. Slivko wrote:
- - ---------------------------
- http://www.nytimes.com/2007/04/20/technology/20blackberry.html?_r=2&oref=slogin&oref=slogin
- regards,
- /virendra
- _______________________________________________
- Outages mailing list
- Outages at isotf.org
- http://isotf.org/mailman/listinfo/outages
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20070422/5f313253/attachment.htm 
-###############################################################
-END
-###############################################################
-
-###############################################################
 Summary: BlackBerry Infrastructure Outage
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -1194,21 +1123,6 @@ slowness at tax e-filing.
  Apparently turbotax filers overwhelmed the system that runs turotax
  e-filing system to a grind. At one point turbotax received 50 to 60
  returns a second and many did not get through causing a minor blip.
- regards,
- /virendra
-###############################################################
-END
-###############################################################
-
-###############################################################
-[ot] BlackBerry owes this guy a girlfriend
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- The ex obviously doesn't read outages mailing list or she'd have known
- immediately what was going on :-)
- http://www.networkworld.com/community/?q=node/14208
- sorry about the OT, couldn't resist.
  regards,
  /virendra
 ###############################################################
@@ -1637,16 +1551,6 @@ END
  -------------- next part --------------
  An HTML attachment was scrubbed...
  URL: http://isotf.org/pipermail/outages/attachments/20070425/fad62013/attachment.htm 
-###############################################################
-END
-###############################################################
-
-###############################################################
-A Rough Day at Cogent: The Effects of De-Peering
-###############################################################
- An embedded and charset-unspecified text was scrubbed...
- Name: not available
- Url: http://isotf.org/pipermail/outages/attachments/20070427/e6daa507/attachment.diff 
 ###############################################################
 END
 ###############################################################

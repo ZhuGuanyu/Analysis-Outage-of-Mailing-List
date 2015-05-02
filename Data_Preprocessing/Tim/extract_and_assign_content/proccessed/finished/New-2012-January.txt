@@ -1,7 +1,7 @@
 ###############################################################
 Internap Chicago event
 ###############################################################
-  We lost our Internap connection at 23:58 UTC in Chicago (at Equinix).
+ We lost our Internap connection at 23:58 UTC in Chicago (at Equinix).
  Internap reported a hardware failure that was fixed within about 10
  minutes. 
  We also noticed strangeness with other providers in other locations at
@@ -1556,7 +1556,7 @@ END
 ###############################################################
 Reachability issues in NA
 ###############################################################
- Anyone seeeing general reachability issues in  North America particularly
+ Anyone seeeing general reachability issues in North America particularly
  East Coast or things going through New York or Philadelphia?
  I looked at the internet traffic report and see a lot of 100% packet loss
  but not sure how much I should read into that.

@@ -1,29 +1,4 @@
 ###############################################################
-Saavis in Chicago
-###############################################################
-  We're seeing problems with BGP exports out of Saavis in Chicago -- is 
- anyone else seeing problems with their exports?
-   8. ber1-vlan-241.chicago.savvis  0.0%
-   9. cr1-tengig-0-0-5-0.chicago.s 70.0%
-   10. acr1-so-0-0-0.chicago.savvis 10.0%
-   11. asr1-atm-0-0-0-301.chicago.s 40.0%
-   12. acr1-at-4-2-0-305.chicago.sa 50.0%
-   13. asr1-atm-0-0-0-301.chicago.s 60.0%
-   14. acr1-at-4-2-0-305.chicago.sa 50.0%
-   15. asr1-atm-0-0-0-301.chicago.s 60.0%
- . . . .
- -- 
- http://www.sleepycatz.com
- sjk at cupacoffee.net
- fingerprint: 1024D/89420B8E 2001-09-16
- No one can understand the truth until
- he drinks of coffee's frothy goodness.
- ~Sheik Abd-al-Kadir
-###############################################################
-END
-###############################################################
-
-###############################################################
 Fiber cut between Princeton and Newark, NJ
 ###############################################################
  I'm being told by PCCW / BTN access support that multiple OC-192's and
@@ -79,27 +54,6 @@ Portland, OR area fiber cuts?
  primarily caused by the difficulty in accessing the cable due to the
  break being near the banks of the Columbia River.
  --Kameron
-###############################################################
-END
-###############################################################
-
-###############################################################
-Outages
-###############################################################
- Is anybody aware of any outages or delays today? We have some apps that
- are hosted on the west coast and many of our users are having trouble
- with time outs or not connecting at all.
- Thanks,
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20080116/2ff2a487/attachment.htm 
- -------------- next part --------------
- A non-text attachment was scrubbed...
- Name: not available
- Type: image/png
- Size: 12587 bytes
- Desc: DMS-DS.png
- Url : http://isotf.org/pipermail/outages/attachments/20080116/2ff2a487/attachment.png 
 ###############################################################
 END
 ###############################################################
@@ -169,32 +123,6 @@ Australia: Outage hits Optus DSL
   Engineering Architecture for the Internet
   fergdawg(at)netzero.net
   ferg's tech blog: http://fergdawg.blogspot.com/
-###############################################################
-END
-###############################################################
-
-###############################################################
-Telstra/psi at LHC
-###############################################################
- Hi,
-  From LHC I can only get to 154.32.3.201 and from outside to in, I  
- stop at LINX.
- Can anyone else see this blackhole?
-    C.
- -- 
-   hail eris
-   http://eatyourpets.com
-###############################################################
-END
-###############################################################
-
-###############################################################
-Yipes New York/Chicago
-###############################################################
- We've been having issues since around 6:30EST this morning, they're
- still in the process of restoring services.  Originally I thought it
- was limited to just NY, but apparently it's affect Chicago as well.
- -J
 ###############################################################
 END
 ###############################################################

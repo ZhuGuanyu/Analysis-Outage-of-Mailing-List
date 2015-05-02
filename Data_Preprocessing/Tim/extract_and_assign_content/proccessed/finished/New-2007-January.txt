@@ -73,18 +73,6 @@ END
 ###############################################################
 
 ###############################################################
-In regards to Savvis outage
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- http://www.pcworld.idg.com.au/index.php/id;87482145
- regards,
- /virendra
-###############################################################
-END
-###############################################################
-
-###############################################################
 Frankfurt GBLX to savvis NY latency
 ###############################################################
  started about 3 hours ago...
@@ -127,20 +115,6 @@ Equinix Chicago - outages in some cabinets.
  Requiescas in pace o email
  Ex turpi causa non oritur actio
  http://members.cox.net/larrysheldon/
-###############################################################
-END
-###############################################################
-
-###############################################################
-Cogent issues
-###############################################################
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- http://status.cogentco.com/ has a warning.
- Also, http://www.internetpulse.net/ showing alerts for cogent.
- Anyone else noticing any slowness?
- regards,
- /virendra
 ###############################################################
 END
 ###############################################################
@@ -312,7 +286,7 @@ END
  Dave,
  [For IP, if of interest.]
  I've been in southern China (Changsha, in Hunan province) since
- Sunday (local time).  My observations have been that network
+ Sunday (local time). My observations have been that network
  connectivity is significantly worse than usual, but is also
  (unsurprisingly) somewhat time-of-day dependent. I have fairly good
  success in the early morning; on the other hand, during evening hours
@@ -320,7 +294,7 @@ END
  are also, of course, dependence on the particular services needed;
  some Internet sites appear to be either better connected or have
  services partly provided out of China, enhancing availability (Google
- is a notable example of good perceived connectivity).  I also suspect
+ is a notable example of good perceived connectivity). I also suspect
  that the phenomenon includes increased network congestion due to a
  much larger number of retries after failed attempts (to which I find
  myself contributing, for example hitting the refresh button in hopes
@@ -330,18 +304,6 @@ END
  repair ship and rough weather at sea.
  Cheers,
  Philip Lehman
-###############################################################
-END
-###############################################################
-
-###############################################################
-test
-###############################################################
- Sorry about the noise, just testing
- -Keith
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20070111/e7a741ea/attachment.htm 
 ###############################################################
 END
 ###############################################################

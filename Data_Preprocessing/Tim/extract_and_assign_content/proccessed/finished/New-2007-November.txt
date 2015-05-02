@@ -1,5 +1,5 @@
 ###############################################################
-Level(3) Service Affecting Maintenance - GCR#165694 -
+Level(3) Service Affecting Maintenance4,  - GCR#165694 -
 ###############################################################
   	36 Hours
  ________________________________
@@ -320,26 +320,6 @@ Level3 Issues In Dallas
  routers interfaces in Texas.
  There appear to be major problems with Level3 in Dallas this evening.
  -Adam
-###############################################################
-END
-###############################################################
-
-###############################################################
-Outages in Portland area
-###############################################################
- Has anybody noticed any outages that would effect traffic in the
- Portland area?
- Thanks,
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20071126/f817e925/attachment.htm 
- -------------- next part --------------
- A non-text attachment was scrubbed...
- Name: not available
- Type: image/png
- Size: 12587 bytes
- Desc: DMS-DS.png
- Url : http://isotf.org/pipermail/outages/attachments/20071126/f817e925/attachment.png 
 ###############################################################
 END
 ###############################################################

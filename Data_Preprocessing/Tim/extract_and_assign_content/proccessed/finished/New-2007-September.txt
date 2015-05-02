@@ -1,20 +1,4 @@
 ###############################################################
-Cogent outage details?
-###############################################################
-  	<46AA087B.7070407@r337.com>
- Matt Liotta wrote:
- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
- ||||||||||||||||||||||||||||||||||||||||||
- WTF?
- -- 
- Requiescas in pace o email
- Ex turpi causa non oritur actio
- http://members.cox.net/larrysheldon/
-###############################################################
-END
-###############################################################
-
-###############################################################
 Thousands in Minnesota Without Phone Service, Includes 911 Access
 ###############################################################
  -----BEGIN PGP SIGNED MESSAGE-----
@@ -39,15 +23,6 @@ Thousands in Minnesota Without Phone Service, Includes 911 Access
   Engineering Architecture for the Internet
   fergdawg(at)netzero.net
   ferg's tech blog: http://fergdawg.blogspot.com/
-###############################################################
-END
-###############################################################
-
-###############################################################
-Flagtel Outage in West Pacific?
-###############################################################
- http://ubs.flagtel.com/lg
- On 8/21/07, Sanjeev K Gupta <sanjeev at esysmail.com> wrote:
 ###############################################################
 END
 ###############################################################
@@ -817,35 +792,4 @@ Level(3) Service Affecting Maintenance - GCR#163805 - Short Interval
 END
 ###############################################################
 
-###############################################################
-Internet loss in Asia?
-###############################################################
- We just lost three sites for a customer in Singapore, Malaysia, and
- Pune, India. Anyone have any idea if anything is going on in Asia? Two
- sites just have an internet connection, and one has an MPLS setup as
- well as an internet link. Odd all three went down at the same time.
- Another earth quake maybe?
- -- 
- ------------------------------------------
- :.: Spags
- :.: Technology is our only hope
- :.: drunkenlinux.com
- :.: spags  / Gentoo Linux
- -----BEGIN PGP SIGNED MESSAGE-----
- Hash: SHA1
- Eric Spagna wrote:
- - -----------------------
- what provider(s)?
- regards,
- /virendra
- I am actually in India, and I personally dont see any issue here. I am 
- actually in Mumbai which is around 2 hours away from pune.
- Satish
- Eric Spagna wrote, On 2007-09-29 1:50 AM:
- -------------- next part --------------
- An HTML attachment was scrubbed...
- URL: http://isotf.org/pipermail/outages/attachments/20070929/0eae74e2/attachment.htm 
-###############################################################
-END
-###############################################################
 
