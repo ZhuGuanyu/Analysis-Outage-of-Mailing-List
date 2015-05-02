@@ -9,6 +9,8 @@ next_line=""
 total_thread = 0
 for filename in dirs:
 	count = 0
+	if filename == "Readme" or filename == "count_thread.py":
+		continue
 	with open(filename, "r") as f:
 		lines = f.readlines()
 		for line in lines:

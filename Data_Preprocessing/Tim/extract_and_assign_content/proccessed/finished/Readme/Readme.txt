@@ -1,4 +1,4 @@
-(1).Total Number of threads: 4251
+(1).Total Number of threads: 2113
 
 (2).Failed output data:
 	1. 2008-August.txt failed.
