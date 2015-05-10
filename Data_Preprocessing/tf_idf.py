@@ -175,7 +175,7 @@ for f in all_files:
     cnt_num += 1
     result = []
     # iterate over terms in f, calculate their tf-idf, put in new list
-    max_freq = 0;
+    max_freq = 0
     for (term,freq) in global_terms_in_doc[f].items():
         if freq > max_freq:
             max_freq = freq
