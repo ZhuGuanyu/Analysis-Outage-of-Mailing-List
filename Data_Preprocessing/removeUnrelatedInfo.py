@@ -84,10 +84,10 @@ def remove_words(parent,filename):
     output.close()
     print "End"
 
-rootdir = './Semifinished/'
-out_rootdir = './Data_Source/'
+rootdir = './Semifinished/tt/'
+out_rootdir = './Data_Source/tim/'
 
-with open("stop_words_en.txt", "r") as f:
+with open("stop_words_copy.txt", "r") as f:
     stop_words = f.read().splitlines()
 
 

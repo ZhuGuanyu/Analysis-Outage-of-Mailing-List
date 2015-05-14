@@ -2,7 +2,7 @@ import os, sys
 path = "."
 dirs = os.listdir( path )
 total_thread = 0
-with open("intergratedThreads.txt", "w") as w:
+with open("intergratedThreads.txt", "a") as w:
 	for filename in dirs:
 		if filename == "Readme" or filename == "count_thread.py" or filename == \
 		"intergratedThreads.txt" or filename == "intergrate.py" or filename == ".DS_Store" :

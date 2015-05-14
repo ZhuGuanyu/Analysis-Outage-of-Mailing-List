@@ -13,9 +13,9 @@ def get_subjects(email_id,username, password):
 			subject+=letter
 	return subject
 
-username = ''
-password = ''
-targetEmailAddress = ''
+username = 'lwt77277220@gmail.com'
+password = 'Lwt19880207~'
+targetEmailAddress = 'zhuguanyu2010@hotmail.com'
 mail = imaplib.IMAP4_SSL('imap.gmail.com')
 mail.login(username, password)
 while True:
